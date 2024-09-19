@@ -1,1 +1,22 @@
 /* your code */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+table{
+	width:100%;		
+}
+tr{
+	height:30px;	
+}
+thead{
+	background-color:#205B8E;
+	color:white;	
+}
+td{
+	text-align:center;
+}
+tr:nth-child(2n){
+	background-color:#DDDCDC;
+}
